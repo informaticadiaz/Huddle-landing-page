@@ -5,6 +5,7 @@
 }
 .box{
   background-image: url("../images/bg-desktop.svg");
+  background-size: cover;
   background-color: hsl(257, 40%, 49%);
   font-family: 'Poppins', sans-serif;
   color: white;
@@ -13,7 +14,7 @@ nav{
     padding: 4vw 0 2vw 5vw;
 }
 nav .logo{
-  width: 15vw;
+  width: 12vw;
 }
 main{
   display: grid;
