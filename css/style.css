@@ -3,9 +3,10 @@
   margin: 0px;
   padding: 0px;
 }
-.box{
+body{
   background-image: url("../images/bg-desktop.svg");
   background-size: cover;
+  background-repeat: no-repeat;
   background-color: hsl(257, 40%, 49%);
   font-family: 'Poppins', sans-serif;
   color: white;
@@ -73,9 +74,9 @@ main .rigth .social{
 }
 
 @media (max-width: 376px) {
-.box{
-  background-image: url("../images/bg-mobile.svg");
-  background-repeat: no-repeat;
+body{
+  background-image: url("../images/bg-mobile.svg");  
+  background-size: auto;
 }
 nav{
   padding: 10vw 0 0 10vw;
